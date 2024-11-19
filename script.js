@@ -89,8 +89,7 @@ function Clock(countdown, callback) {
 }
 
 // Configuración de la nueva fecha límite
-var deadline = new Date("2024-12-09T12:00:00");
-var c = new Clock(deadline, function() { alert('EMPIEZA A EXPLORAR'); });
+var deadline = new Date("2024-11-019T15:18:00");
 document.body.appendChild(c.el);
 
 
